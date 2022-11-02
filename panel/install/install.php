@@ -5,14 +5,15 @@
 
 <link rel='stylesheet' href='style.css' />
 
-    $HOST_name = "<input class='input' type='text' name='dbhost' placeholder='Enter Host Name' />";
-    $DB_username = "<input class='input' type='text' name='dbuser' placeholder='Enter DB User Name' />";
-    $DB_password = "<input class='input' type='password' name='dbpass' placeholder='***********' />";
-    $DB_name = "<input class='input' type='text' name='dbname' placeholder='Enter DB Name' />";
-    $SMTP_Host = "<input class='input' type='text' name='smtp' placeholder='Enter Host Name' />"
-    $SMTP_username = "<input class='input' type='text' name='smtpuser' placeholder='Enter User Name' />"
-    $SMTP_password = "<input class='input' type='text' name='smtppass' placeholder='***********' />"
-    $SMTP_port = "<input class='input' type='text' name='smtpport' placeholder='Enter SMTP Port' />"
+    $HOST_name = "<input class='input' type='text' name='dbhost' placeholder='Enter Host Name' required/>";
+    $DB_username = "<input class='input' type='text' name='dbuser' placeholder='Enter DB User Name' required/>";
+    $DB_password = "<input class='input' type='password' name='dbpass' placeholder='***********' required/>";
+    $DB_name = "<input class='input' type='text' name='dbname' placeholder='Enter DB Name' required/>";
+    $SMTP_Host = "<input class='input' type='text' name='smtp' placeholder='Enter Host Name' required/>"
+    $SMTP_username = "<input class='input' type='text' name='smtpuser' placeholder='Enter User Name' required/>"
+    $SMTP_password = "<input class='input' type='text' name='smtppass' placeholder='***********' required/>"
+    $SMTP_port = "<input class='input' type='text' name='smtpport' placeholder='Enter SMTP Port' required/>"
+    $SMTP_Auth = "<input class='input' type='text' name='smtpauth' placeholder='TLS or SSL' required/>"
     echo "<div class='box' >
             <form class='ins' method='post' action='installing.php' >
                     <p>Enter Host Name:<p>
@@ -31,6 +32,8 @@
                     $SMTP_password
                     <p>Enter SMTP Port</p>
                     $SMTP_port
+                    <p>Enter SMTP Auth Protocol</p>
+                    $SMTP_Auth
                     
                     <input class='submit' type='submit'name='install' value='NEXT' />
             </form>
