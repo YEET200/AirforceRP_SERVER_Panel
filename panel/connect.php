@@ -5,8 +5,8 @@
     use PHPMailer/PHPMailer/Exception;
     require("vendor\autoload.php");
         $mail->SMTPAuth = true; // There was a syntax error here (SMPTAuth)
-        $mail->SMTPSecure = 'tls';
-        $mail->Host = $_POST['SMTP_'];
+        $mail->SMTPSecure = $_POST['SMTP_Auth'];
+        $mail->Host = $_POST['SMTP_Host'];
         $mail->Mailer = "smtp";
         $mail->Port = $_POST['SMTP_port'];
         $mail->Username = $_POST['SMTP_username'];
