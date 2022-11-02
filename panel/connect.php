@@ -6,11 +6,11 @@
     require("vendor\autoload.php");
         $mail->SMTPAuth = true; // There was a syntax error here (SMPTAuth)
         $mail->SMTPSecure = 'tls';
-        $mail->Host = "smtp.gmail.com";
+        $mail->Host = $_POST['SMTP_'];
         $mail->Mailer = "smtp";
-        $mail->Port = $_POST['SMTP_PORT'];
-        $mail->Username = "YOU@gmail.com";
-        $mail->Password = "YOUR_GMAIL_password";
+        $mail->Port = $_POST['SMTP_port'];
+        $mail->Username = $_POST['SMTP_username'];
+        $mail->Password = $_POST['SMTP_password'];
        
     @mysqli_connect(
         $HOST_name,
