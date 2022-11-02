@@ -8,8 +8,8 @@
 <body>
 <?php
 include('steamconfig.php');
-
-<a class='btn btn-dark' href="<?php echo $url; ?>">Login with Steam</a>
 ?>
+  
+<a class='btn btn-dark' href='<?php echo $url; ?>'>Login with Steam</a>
 </body>
 </html>
