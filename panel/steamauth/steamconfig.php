@@ -84,4 +84,4 @@ class SteamLogin
 	}
 }
 
-<a href="<?php echo $url; ?>">Login with Steam</a>
+
