@@ -7,7 +7,7 @@
     '.'$DB_password = '."'".$_POST['dbpass']."'".';
     '."?>";
 
-    $write=fopen('..\..\DB_config.php' , 'w');
+    $write=fopen('DB_config.php' , 'w');
     if(empty($_POST['dbhost']&&Cx
              $_POST['dbname']&&
              $_POST['dbuser']&&
