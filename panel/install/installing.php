@@ -26,4 +26,5 @@
                 </form>
                 </div>";
         }else{ echo "<h2 align=center >Error<h2>"; }}
+    echo ('<a type="button" href="register.php">register account</a> ');
 ?>
