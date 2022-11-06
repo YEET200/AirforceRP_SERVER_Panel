@@ -20,4 +20,7 @@ You'll lose all the Files in your server if your not Careful
 
 ITS not done yet the First release comes out on January 28th 2023. <br>
 Verstion 1.0.0.0
+
+End Of support date <br>
+Jan 28th 2033
 # Thanks Yeet200
