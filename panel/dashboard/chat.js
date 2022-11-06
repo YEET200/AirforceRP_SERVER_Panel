@@ -1,5 +1,5 @@
 
-  var ws_uri = "ws://[your-domain]:3000";
+                    var ws_uri = "ws://[your-domain]:3000";
                     var websocket = new WebSocket(ws_uri);
                         
                      // on websocket open:
