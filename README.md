@@ -18,6 +18,6 @@ You'll lose all the Files in your server if your not Careful
 5.Apply the CDN - if you have a web server that is separate then the Gaming Server
 6.You're ALL DONE!
 
-ITS not done yet the First release comes out on January 28th 2023
+ITS not done yet the First release comes out on January 28th 2023 /n
 Verstion 1.0.0.0
 # Thanks Yeet200
