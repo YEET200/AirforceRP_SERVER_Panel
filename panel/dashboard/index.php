@@ -98,7 +98,19 @@
     <section class="home">
         <div class="text">Dashboard Sidebar</div>
     </section>
-
+    
+    <section class="chat">
+        <div class="chat">
+            <div id="chat">
+	            <div id="chat-messages">
+                    <script src "chat.js"></script>
+	            <form id="chat-form" method="post">
+		       <input type="text" name="message" placeholder="Enter a message..." maxlength="1000" autocomplete="true">
+		      <button type="submit">Send</button>
+ 	        </form>
+           </div>
+        </div>
+    </section>
     <script src="script.js"></script>
 
 </body>
