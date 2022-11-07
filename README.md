@@ -11,12 +11,12 @@ The AirforceRP Server Panel is a Server Panel for admins that need to use a gami
 Please Follow these Instructions not going in order can brick your server so please have a Backup 
 You'll lose all the Files in your server if your not Careful
 
-1.Download and UNZIP Folder
-2.Place the Folders in your Public_html or Sub-Domain Folder
-3.Open your web browser and Open the Install folder
-4.Run the INSTALLER through the web browser
-5.Apply the CDN - if you have a web server that is separate then the Gaming Server
-6.You're ALL DONE!
+1.Download and UNZIP Folder <br />
+2.Place the Folders in your Public_html or Sub-Domain Folder <br />
+3.Open your web browser and Open the Install folder <br />
+4.Run the INSTALLER through the web browser <br />
+5.Apply the CDN - if you have a web server that is separate then the Gaming Server <br />
+6.You're ALL DONE! <br />
 
 ITS not done yet the First release comes out on January 28th 2023. <br>
 Verstion 1.0.0.0
