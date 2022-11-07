@@ -1,12 +1,12 @@
 # AirforceRP_SERVER_Panel
 The AirforceRP Server Panel is a Server Panel for admins that need to use a gaming server and is in need of a Web Panel to do that. This Panel can work
 # Features
-1.Status Page n/
-2.Web Panel n/
-3.Settings Page n/
-4.Admin Chat n/
-5.System Information Page n/
-6.CDN to Transmit Data to a Web Server (have to Request CDN because there is a bug that happens to do Declare CDN Invalid If pasted when there is no SSL) n/
+1.Status Page <br />
+2.Web Panel <br />
+3.Settings Page <br />
+4.Admin Chat <br />
+5.System Information Page <br />
+6.CDN to Transmit Data to a Web Server (have to Request CDN because there is a bug that happens to do Declare CDN Invalid If pasted when there is no SSL) <br />
 # Install
 Please Follow these Instructions not going in order can brick your server so please have a Backup 
 You'll lose all the Files in your server if your not Careful
