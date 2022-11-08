@@ -86,8 +86,8 @@
   <style type="text/css">
     table     { width:800px; border-collapse: collapse;}
     td, th    { padding:10px; border: solid 2px #444;  }
-    .online   { background-color:}
-    .offline  { } 
+    .online   { background-color:#090; }
+    .offline  { background-color:#900; } 
   </style>
 
   <center>
@@ -100,7 +100,14 @@
         </thead>
         <tbody>
             <?php 
-                var_dump(server_online($servers[2][0], $servers[3][1]));
+                foreach ($servers[0], $server[1]); {
+                    $online = server_online($server[0], $server[1]);
+            ?>
+            <tr>
+                <td><?php echo $server[0], ':' $server[1]; ?></td>
+                <td class="<?php echo ($online) ? 'online' : 'offline'; ?>"><?php echo ($online) ? 'Online' : 'Offline'; ?>
+            <?php 
+                }
             ?>
         </tbody>
     </table>
