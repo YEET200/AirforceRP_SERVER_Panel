@@ -18,7 +18,7 @@ You'll lose all the Files in your server if your not Careful
 5.Apply the CDN - if you have a web server that is separate then the Gaming Server <br />
 6.You're ALL DONE! <br />
 
-ITS not done yet the First release comes out on January 28th 2023. <br>
+ITS not done yet the First release comes out on November 9th 2022. <br>
 Verstion 1.0.0.0
 
 End Of support date <br>
