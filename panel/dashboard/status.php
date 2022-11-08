@@ -104,7 +104,7 @@
                     $online = server_online($server[0], $server[1]);
             ?>
             <tr>
-                <td><?php echo $server[0], ':' $server[1]; ?></td>
+                <td><?php echo $server[0], ':', $server[1]; ?></td>
                 <td class="<?php echo ($online) ? 'online' : 'offline'; ?>"><?php echo ($online) ? 'Online' : 'Offline'; ?>
             <?php 
                 }
