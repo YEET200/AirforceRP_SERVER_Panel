@@ -100,7 +100,7 @@
         </thead>
         <tbody>
             <?php 
-                foreach ($servers[0], $server[1]); {
+                foreach ($servers as $server); {
                     $online = server_online($server[0], $server[1]);
             ?>
             <tr>
