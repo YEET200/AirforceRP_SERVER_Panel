@@ -81,12 +81,29 @@
         <div class="text">Dashboard Sidebar</div>
     </section>
     <script src="script.js"></script>
-<body>
+
   
   <style type="text/css">
     table     { width:800px; border-collapse: collapse;}
     td, th    { padding:10px; border: solid 2px #444;  }
-    .online   { padding-left:3px; height:1px; width:1px; background-color:#00A95F; border-radius:50px;}   
+    .online   { background-color:}
+    .offline  { } 
   </style>
+
+  <center>
+    <table>
+        <thead>
+            <tr>    
+                <th>Server</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php 
+                var_dump(server_online($servers[2][0], $servers[3][1]));
+            ?>
+        </tbody>
+    </table>
+  </center>
 </body>
 </html>
