@@ -50,7 +50,7 @@
                         </a>
                     </li>
 
-                    <li class="nav-link" background-color:#0275d8;>
+                    <li class="nav-link" style="background-color:#0275d8;">
                         <a href="notifications.php" style="background-color:#0275d8;">
                             <i class='bx bx-bell icon'></i>
                             <span class="text nav-text">Notifications</span>
